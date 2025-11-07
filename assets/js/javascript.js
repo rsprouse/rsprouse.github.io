@@ -3227,6 +3227,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
                       })
                       .appendTo(self.$wrap);
 
+        self.$img.attr('alt': '');
         // Hack for IE img onload event
         self.$img.attr('src', self.images[newIndex]);
         return self;
