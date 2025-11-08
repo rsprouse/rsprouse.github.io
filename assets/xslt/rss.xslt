@@ -396,7 +396,7 @@
 </ul>
 
 		<xsl:text disable-output-escaping="yes"><![CDATA[
-		    <div id="up-to-top" class="row">
+		    <div id="up-to-top" class="row" role="navigation" arial-label="up to top">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
