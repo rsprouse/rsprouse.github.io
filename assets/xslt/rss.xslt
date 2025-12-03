@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="https://rsprouse.github.io///assets/css/styles_feeling_responsive.css">
     <link rel="stylesheet" type="text/css" href="https://rsprouse.github.io///assets/css/tabs.css" />
     <link rel="stylesheet" type="text/css" href="https://rsprouse.github.io///assets/css/cla.css" />
-    
 
   
 
@@ -460,7 +459,7 @@
     <script async src="https://siteimproveanalytics.com/js/siteanalyze_6294756.js"></script>
     </footer>
 
-		<script src="https://rsprouse.github.io///assets/js/jquery-3.7.1.js"></script>
+		<script src="https://rsprouse.github.io///assets/js/jquery-3.3.1.js"></script>
 
 
 
