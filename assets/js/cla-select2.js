@@ -495,12 +495,8 @@ function update_coll_list(q, recs) {
            collhtml += '<p class="title"><span class="title">' + r['_source']['title'] + '</span></p>';
          } else {
            collhtml += `<label class="${lblclass}" for="_coll${count}">`;
-           if (r['_source']['collid'] == 11076) {
-			   collhtml += r['_source']['title'];
-		   } else {
-             collhtml += '<a href="' + baseurl + 'collection?collid=' + r['_source']['collid'] + '=' + r['_source']['title'] + '" class="post">' + r['_source']['title'] +'</a>';
-             collhtml += '&nbsp;<i class="icon fa-caret-right"></i>';
-		   }
+           collhtml += '<a href="' + baseurl + 'collection?collid=' + r['_source']['collid'] + '=' + r['_source']['title'] + '" class="post">' + r['_source']['title'] +'</a>';
+           collhtml += '&nbsp;<i class="icon fa-caret-right"></i>';
            collhtml += '</label>';
          }
          collhtml += r['_source']['ul_md'];
