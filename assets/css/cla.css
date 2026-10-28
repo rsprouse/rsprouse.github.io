@@ -15,10 +15,8 @@
 
 /* Embedded form for access requests */
 #request-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  max-width: 720px;
+  margin:0 auto;
 }
 
 p.cla-description {
