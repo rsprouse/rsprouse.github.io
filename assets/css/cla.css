@@ -13,6 +13,14 @@
   padding-bottom: 1.5em;
 }
 
+/* Embedded form for access requests */
+#request-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 p.cla-description {
   padding-left: 15px;
   padding-right: 15px;
